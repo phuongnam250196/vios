@@ -1,0 +1,40 @@
+.modal-content {
+  background-color: #010101;
+}
+
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+  font-size: 1.6rem;
+  color: #161616;
+  background: #fff;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .carousel-control-next {
+    right: -40px;
+  }
+  
+  .carousel-control-prev {
+    left: -40px;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  height: 2rem;
+  width: auto;
+  opacity: 1;
+}
